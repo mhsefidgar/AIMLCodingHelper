@@ -1,16 +1,3 @@
-> From: https://gemini.google.com/app/58a8325ea2b21571
-
-# you asked
-
-message time: 2026-07-20 16:48:44
-
-make complete example in each part in the code add numerical sample comments  in the comment as much as possible. Do not remove anything else from the file and do not modify anything in  the file otehr than code part to add more comments and make it more undrestandable 
- you may add a part after Explanation:, best practices part
-
----
-
-# gemini response
-
 # Scikit-Learn & Python Data Science Technical Pair Coding Guide updated by Mohammad Sefidgar
 
 A comprehensive, end-to-end practical guide containing **100 Q&A sections** for pair-coding interviews and hands-on technical assessments focusing on tabular prediction tasks using `pandas`, `numpy`, and `scikit-learn`.
