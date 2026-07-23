@@ -1,30 +1,4 @@
-SQL Questions and Answers by Mohamamd Sefidgar
-
-Section 1: General SQL Questions
-
-1. What is SQL?
-
-SQL (Structured Query Language) is the standard domain-specific language designed for managing, querying, and manipulating data stored in relational database management systems (RDBMS). We use SQL because it provides a standardized, declarative, and efficient way to store, retrieve, filter, and alter structured data across various database engines without needing to write low-level file manipulation logic.
--- Retrieve all details for active employees in department 10SELECT * FROM employees WHERE dept_id = 10 AND status = 'ACTIVE';
-
-Code Logic:
-The query uses the SELECT * clause to request every column from the employees table. The WHERE clause filters the rows so that only records where dept_id equals 10 and status equals 'ACTIVE' are returned from the database engine.
-Terms Used:
-SQL: Structured Query Language, the standardized programming language used to manage relational databases.
-SELECT: The SQL keyword used to retrieve data from a database table.
-WHERE: A clause used to filter database query records based on specific condition criteria.
-Best Practices:
-Avoid using SELECT * in production code; explicitly name only the required columns to reduce unnecessary I/O, network traffic, and memory consumption.
-Ensure filter columns used in WHERE clauses (like dept_id and status) are properly indexed to speed up query execution.
-now start creating 100 q and a based on the  template do not over explain something that are not necessary. The aim here is to make something understandable.
-
----
-
-# gemini response
-
-# Agentic AI and RAG Systems Questions and Answers
-
----
+# SQL Questions and Answers by Mohamamd Sefidgar
 
 ## Section 1: RAG Fundamentals & Ingestion Strategies
 
